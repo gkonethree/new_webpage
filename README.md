@@ -1,1 +1,1 @@
-# new_webpage
+index.html is the homepage
