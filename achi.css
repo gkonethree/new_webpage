@@ -1,0 +1,51 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+
+    background-color: black;
+    padding: 10px;
+    color: thistle;
+    border-radius: 5px;
+}
+a {
+    color: deeppink;
+}
+
+a:hover {
+    background-color: gold;
+    border-style: groove;
+}
+header{
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding: 8px;
+}
+table{
+    width: 100%;
+    margin-top:5%
+    
+
+}
+table,th,td{
+    
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+th,td{
+    padding:5px;
+    font-size:20px;
+}
+th{
+    height: 70px;
+    color:aliceblue;
+    background-color:indigo;
+    border-left: none;
+}
+td{
+    background-color: antiquewhite;
+}
+body{
+    background-color: bisque;
+}

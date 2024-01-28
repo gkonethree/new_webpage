@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Homepage</title>  
+    <link rel="icon" type="image/x-icon" href="ico.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script> 
+    function myFunction() {
+        var form = document.getElementById("frm1");
+        var submitButton = document.getElementById("btn");
+        form.submit();
+        
+        form.style.display = "none";
+        
+        
+        var thanksMessage = document.createElement("p");
+        thanksMessage.innerHTML = "Thanks for contacting us";
+        document.body.appendChild(thanksMessage);
+    }
+    </script>
+    <style>
+        body {
+    font-family: 'Libre Baskerville', serif;
+  background-image: url("img1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+    
+}
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville">
+    <link rel="stylesheet" href="homesheet.css">
+    <!--libre baskerville  fjalla one-->
+    <body><header id="overall_head">
+        <img src="ico.jpg" height="5%" id="logo">
+        <h1>Welcome</h1>
+        </header>
+        <nav>
+            <div class="dropd">
+            <a href="#hobbies" id="ho">Hobbies </a>
+            <div class="drop">
+                <a href="badminton.html">Badminton</a>
+                <a href="cube.html">Cubing</a>
+                <a href="anime.html">Anime</a>
+            </div>
+            </div>
+            <a href="achievements.html">Achievements</a>
+            <a href="#frm1">Contact</a>
+        </nav>
+        
+    <div class="c1">
+        <h2 id="intro">Introduction</h2>
+        <p id="fp">I, <b>Gaurav Kumar</b>, am currently pursuing B.Tech in Computer Science from IIT Bombay. <br>
+            I am really interested in coding and hacking stuff and enjoy web development.<br><br>
+            This my self-designed webpage.<br>
+            Thanks for showing interest.
+
+        </p>
+        <picture id="img">
+            <img src="img1.jpeg" height="350px" alt="Sorry.Missed a glance" title="An enjoyable photo">
+            
+        </picture><br>
+        
+        
+        <br>
+        <br>
+    </div>
+        <hr class="line">
+        <div class="c3">
+        <h3 id="hobbies">Some of my hobbies</h3>
+        <ul>
+            <li><a href="badminton.html" class="hob">Badminton</a></li>
+            <li><a href="anime.html" class="hob">Anime </a></li>
+            <li><a href="cube.html" class="hob">Cubing</a></li>
+        </ul>
+
+        </div>
+        <div class="c4" id="studies">
+            <h3>About my studies</h3>
+            <p>
+                I got 99.4% in 10<sup>th</sup> boards and 96.4% in 12<sup>th</sup>     boards.       </p>
+                <p>I cleared JEE-Advanced with AIR-51 and joined IIT Bombay for pursuing my further studies in Computer Science.</p>
+                <p>I also like Physics and Astronomy.</p>
+        </div>
+        <div class="c2">
+        <form id="frm1" action="mailto:gaurav.kumar1301gk@gmail.com" method="post" enctype="text/plain">
+            <h4>Drop a message for me</h4>
+            <label for="names">Name</label>
+            <input type="text" name="names" id="names" required><br>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required><br><br>
+            <label for="message">Drop your message</label><br>
+            <textarea name="message" id="message" rows="4"></textarea><br><br>
+            <input type="button" onclick="myFunction()" value="Submit" id="btn">
+
+        </form>
+        
+        <br>
+        <p><a href="#overall_head">Back to top</a></p>
+        </div>
+        <footer>
+            Contact Me: <br>
+            Email: gaurav.kumar1301gk@gmail.com<br>
+            Contact No. 9205580384
+
+        </footer>
+
+    </body>
+</html>
